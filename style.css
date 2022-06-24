@@ -1,0 +1,79 @@
+body {
+  background: #c7c7c7;
+  padding: 0 20%;
+}
+
+.mainDiv {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+div {
+  border-radius: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  position: relative;
+}
+
+input {
+  border-radius: 0.4rem;
+  border: none;
+  padding: 0.7rem;
+  outline: none;
+  width: 5rem;
+  margin: auto;
+  text-align: center;
+  box-shadow: 0.2rem 0.2rem 0.2rem gray;
+  margin: 0.2rem;
+}
+
+button {
+  width: 3rem;
+  height: 3rem;
+  font-size: 2rem;
+  padding: 0px;
+  margin: 0.2rem;
+  border-radius: 5rem;
+  outline: none;
+  border: none;
+  background: white;
+  cursor: pointer;
+  box-shadow: 0.2rem 0.2rem 0.2rem gray;
+}
+
+#btn1 {
+  display: block;
+}
+
+.deleteButton {
+  width: 2rem;
+  height: 2rem;
+  font-size: 1rem;
+  background: white;
+  color: red;
+  position: absolute;
+  right: 40%;
+  opacity: 0;
+}
+
+div:hover .deleteButton {
+  opacity: 1;
+}
+hr {
+  height: 0.5rem;
+  background: white;
+  outline: none;
+  border: none;
+  position: absolute;
+  z-index: -1;
+  width: 60%;
+  max-width: 20rem;
+}
+
+#hr1 {
+  transform: rotate(90deg);
+}
